@@ -1,0 +1,11 @@
+# Node
+node_modules/
+dist/
+
+# Env / secrets
+.env
+.env.*          # .env.local etc.
+
+# Logs & misc
+npm-debug.log*
+.DS_Store

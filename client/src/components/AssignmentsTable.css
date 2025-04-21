@@ -1,0 +1,14 @@
+.assignments-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .assignments-table th,
+  .assignments-table td {
+    padding: 8px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  .assignments-table th:hover {
+    background: #f0f0f0;
+  }
+  

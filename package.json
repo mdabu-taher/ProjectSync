@@ -1,0 +1,18 @@
+{
+  "name": "projectsync",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+  "server": "nodemon server/index.js",
+  "seed":   "node server/scripts/seed.js",
+  "start":  "npm run build && node server/index.js",
+  "client": "cd client && npm run dev",
+  "dev":    "concurrently \"npm run server\" \"npm run client\"",
+  "build":  "npm run build --prefix client"
+}
+,
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "nodemon":      "^2.0.22"
+  }
+}

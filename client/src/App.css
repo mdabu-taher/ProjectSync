@@ -1,0 +1,30 @@
+/* client/src/App.css */
+.app-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+}
+
+th {
+  cursor: pointer;
+  background-color: #f9f9f9;
+}
+
+th:hover {
+  background-color: #f1f1f1;
+}
